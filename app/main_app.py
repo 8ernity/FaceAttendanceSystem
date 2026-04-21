@@ -1,10 +1,13 @@
 import os
+from dotenv import load_dotenv
 import threading
 import customtkinter as ctk
 from PIL import Image
 import cv2
 import pandas as pd
 from datetime import datetime
+
+load_dotenv()
 
 from app.utils.helpers import setup_directories, ATTENDANCE_DIR
 from app.core.camera import DatasetManager
@@ -41,12 +44,11 @@ class FaceTrackerApp(ctk.CTk):
         from app.core.cloudinary_manager import CloudinaryManager
         self.cloud_manager = CloudinaryManager()
         
-        # Cloudinary Credentials (Replace with your own from Cloudinary Console)
-        # Sign up for free at https://cloudinary.com/
+        # Cloudinary Credentials (Loaded from .env)
         CLOUDINARY_CONFIG = {
-            "cloud_name": "dxylq3l2l",
-            "api_key": "855645532692933",
-            "api_secret": "Pi7FaAUcojhekuuQbV5kSU0WEpg"
+            "cloud_name": os.getenv("CLOUDINARY_CLOUD_NAME"),
+            "api_key": os.getenv("CLOUDINARY_API_KEY"),
+            "api_secret": os.getenv("CLOUDINARY_API_SECRET")
         }
         
         success, msg = self.cloud_manager.initialize(**CLOUDINARY_CONFIG)
