@@ -53,6 +53,29 @@ The application features a modern dashboard interface, live camera feed, analyti
 
 ---
 
+## 🔄 Data Flow Diagram
+
+```mermaid
+graph LR
+
+    USER[User]
+    CAMERA[Camera]
+    SYSTEM[System]
+    AI[Face Recognition]
+    DB[(Database)]
+
+    USER -->|Start Attendance| SYSTEM
+    CAMERA -->|Capture Image| SYSTEM
+
+    SYSTEM -->|Send Image| AI
+    AI -->|Recognized Face| SYSTEM
+
+    SYSTEM -->|Store Data| DB
+    DB -->|Fetch Student Info| SYSTEM
+
+    SYSTEM -->|Show Result| USER
+```
+
 ## 🏗️ Project Structure
 
 ```plaintext
