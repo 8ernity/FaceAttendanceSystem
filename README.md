@@ -1,4 +1,7 @@
-# 🚀 Face Attendance System
+<h1 style="margin:0;">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="38" style="vertical-align:-4px;">
+  Face Attendance System
+</h1>
 
 A modern AI-powered face recognition attendance system built with Python. This project automates attendance marking using real-time facial recognition, offering a clean dashboard UI and efficient data handling.
 
@@ -12,7 +15,10 @@ The application features a modern dashboard interface, live camera feed, analyti
 
 ---
 
-## ✨ Features
+<h2 style="margin:0;">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif" alt="✨" width="25" style="vertical-align:-4px;">
+  Features
+</h2>
 
 * 🎥 **Real-Time Face Recognition**
 
