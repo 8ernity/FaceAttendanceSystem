@@ -118,7 +118,10 @@ FaceAttendanceSystem/
 
 ---
 
-## 🚀 Installation & Setup
+<h2 style="margin:0;">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="30" style="vertical-align:-4px;">
+  Installation & Setup
+</h2>
 
 ### 1. Clone the Repository
 
@@ -174,7 +177,7 @@ python run.py
 
 ---
 
-## 📊 Sample Output
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" alt="📊" width="40"> &nbsp;Sample Output
 
 * Recognized Face → Name + Confidence
 * Attendance Record →
