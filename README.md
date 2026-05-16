@@ -106,7 +106,10 @@ FaceAttendanceSystem/
 
 ---
 
-## ⚙️ Tech Stack
+<h2 align="left">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.gif" alt="⚙" width="30" height="30" align="center">
+  &nbsp;<b>Tech Stack</b>
+</h2>
 
 * **Language:** Python
 * **Libraries:**
@@ -157,7 +160,10 @@ python run.py
 
 ---
 
-## 📷 How It Works
+<h2 style="margin:0;">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4f7/512.gif" width="28" style="vertical-align:-4px;">
+  How It Works
+</h2>
 
 1. **Add User**
 
@@ -206,7 +212,10 @@ python run.py
 
 ---
 
-## 🤝 Contributing
+<h2 style="margin:0;">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f91d/512.gif" width="28" style="vertical-align:-4px;">
+  Contributing
+</h2>
 
 Contributions are welcome!
 
@@ -223,7 +232,10 @@ This project is licensed under the MIT License.
 
 ---
 
-## ⭐ If you like this project
+<h2 style="margin:0;">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2b50/512.gif" width="28" style="vertical-align:-4px;">
+  If you like this project
+</h2>
 
 Give it a star on GitHub and share it!
 
