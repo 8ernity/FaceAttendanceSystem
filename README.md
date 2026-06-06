@@ -3,6 +3,10 @@
   Face Attendance System
 </h1>
 
+<p align="center">
+  <img src="./assets/FaceAttend.png" width="100%">
+</p>
+
 A modern AI-powered face recognition attendance system built with Python. This project automates attendance marking using real-time facial recognition, offering a clean dashboard UI and efficient data handling.
 
 ---
